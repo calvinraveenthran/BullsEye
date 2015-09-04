@@ -13,6 +13,8 @@
 		0F53C9E41B97360900BF0B3C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F53C9E31B97360900BF0B3C /* Images.xcassets */; };
 		0F53C9E71B97360900BF0B3C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F53C9E51B97360900BF0B3C /* LaunchScreen.xib */; };
 		0F53C9F31B97360900BF0B3C /* BullsEyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F53C9F21B97360900BF0B3C /* BullsEyeTests.swift */; };
+		0F68BEBD1B989DE30026E599 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F68BEBC1B989DE30026E599 /* AboutViewController.swift */; };
+		0FBA05921B98BB500064008D /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 0FBA05911B98BB500064008D /* BullsEye.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		0F53C9EC1B97360900BF0B3C /* BullsEyeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BullsEyeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F53C9F11B97360900BF0B3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F53C9F21B97360900BF0B3C /* BullsEyeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullsEyeTests.swift; sourceTree = "<group>"; };
+		0F68BEBC1B989DE30026E599 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		0FBA05911B98BB500064008D /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +81,11 @@
 		0F53C9D91B97360900BF0B3C /* BullsEye */ = {
 			isa = PBXGroup;
 			children = (
+				0FBA05911B98BB500064008D /* BullsEye.html */,
 				0F53C9DC1B97360900BF0B3C /* AppDelegate.swift */,
 				0F53C9DE1B97360900BF0B3C /* ViewController.swift */,
 				0F53C9E01B97360900BF0B3C /* Main.storyboard */,
+				0F68BEBC1B989DE30026E599 /* AboutViewController.swift */,
 				0F53C9E31B97360900BF0B3C /* Images.xcassets */,
 				0F53C9E51B97360900BF0B3C /* LaunchScreen.xib */,
 				0F53C9DA1B97360900BF0B3C /* Supporting Files */,
@@ -193,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F53C9E21B97360900BF0B3C /* Main.storyboard in Resources */,
+				0FBA05921B98BB500064008D /* BullsEye.html in Resources */,
 				0F53C9E71B97360900BF0B3C /* LaunchScreen.xib in Resources */,
 				0F53C9E41B97360900BF0B3C /* Images.xcassets in Resources */,
 			);
@@ -212,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F68BEBD1B989DE30026E599 /* AboutViewController.swift in Sources */,
 				0F53C9DF1B97360900BF0B3C /* ViewController.swift in Sources */,
 				0F53C9DD1B97360900BF0B3C /* AppDelegate.swift in Sources */,
 			);
@@ -338,6 +346,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = BullsEye/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -348,6 +357,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = BullsEye/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -407,6 +417,7 @@
 				0F53C9F81B97360900BF0B3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F53C9F91B97360900BF0B3C /* Build configuration list for PBXNativeTarget "BullsEyeTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +426,7 @@
 				0F53C9FB1B97360900BF0B3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
