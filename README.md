@@ -7,3 +7,7 @@ A Simple Game using a slider. Learned from Ray Wanderleich.
 
 
 ![Screenshot](/2.jpg)
+
+
+
+![Screenshot](/3.jpg)
